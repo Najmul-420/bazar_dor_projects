@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 বাজার দর (BazarDor)
 
-## Getting Started
+বাজার দর (BazarDor)** হলো নিত্যপ্রয়োজনীয় পণ্যের সাম্প্রতিক বাজারদর দেখার এবং মূল্য বৃদ্ধি/হ্রাসের ট্রেন্ড পর্যবেক্ষণ করার একটি আধুনিক ওয়েবাসাইট। 
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Demo & Repository
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🌐 **Live Website:** [https://your-live-site-link.vercel.app](https://your-live-site-link.vercel.app)
+- 📁 **GitHub Repository:** [https://github.com/your-username/B14-A7-Bazar-Dor](https://github.com/your-username/B14-A7-Bazar-Dor)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  Key Features
 
-## Learn More
+1. 📊 **Live Price Ticker & Market Insights:**
+   - নেভবারের নিচে আনলিমিটেড স্ক্রলিং মার্কি টিঙ্কার, যা দ্রুত পণ্যের মূল্য ও শতকরা পরিবর্তন (▲ / ▼ %) দেখায়।
+   - আজকের দর বৃদ্ধি এবং দর কমার পণ্যের আলাদা সেকশন।
 
-To learn more about Next.js, take a look at the following resources:
+2.  Dynamic Category Filtering & Sorting:**
+   - বিভিন্ন ক্যাটাগরি (চাল, সবজি ইত্যাদি) অনুযায়ী পণ্য ফিল্টারিং।
+   - বাংলা সংখ্যা সঠিকভাবে প্রসেস করে কম থেকে বেশি বা বেশি থেকে কম দামে সর্টিং (Sorting) সুবিধা।
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3.  Detailed Product Overview (Protected Route):**
+   - পণ্যের সর্বনিম্ন, সর্বোচ্চ ও গড় দামের বিবরণ।
+   - বিভিন্ন বাজারের ওপর ভিত্তি করে আজকের নির্দিষ্ট পণ্যের দামের তুলনামূলক চিত্র।
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4.  **Seamless Authentication (BetterAuth):**
+   - ইমেইল/পাসওয়ার্ডের মাধ্যমে সাইন-ইন ও সাইন-আপ।
+   - Google এবং GitHub দিয়ে এক ক্লিকে সোশ্যাল লগইন সুবিধা।
+   - সুন্দর টোস্ট নোটিফিকেশন (Toast Notifications) ও লোডিং স্কেলেটন (Skeleton Loaders)।
 
-## Deploy on Vercel
+5. 👤 **User Profile & Info Update:**
+   - ইউজারদের নিজস্ব প্রোফাইল ভিউ করা।
+   - ইউজারের নাম আপডেট করার সুবিধা (Profile Information Update Feature)।
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. **Fully Responsive & Friendly 404:**
+   - মোবাইল, ট্যাবলেট ও ডেস্কটপ—সব ডিভাইসে শতভাগ রেসপন্সিভ লেআউট।
+   - ভুল রুটে গেলে কাস্টম ৪-০-৪ (404 Page) এবং সুন্দর লোডিং স্টেট।
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠️ Technologies Used
+
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Language:** TypeScript / JavaScript
+- **Styling:** Tailwind CSS, DaisyUI / Hero UI
+- **Authentication:** [BetterAuth](https://www.better-auth.com/)
+- **Icons & Visuals:** React Icons / FontAwesome / Custom Emojis
+- **Deployment:** Vercel / Netlify
+
+---
+
+
+
