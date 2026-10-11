@@ -2,14 +2,8 @@
 
 বাজার দর (BazarDor)** হলো নিত্যপ্রয়োজনীয় পণ্যের সাম্প্রতিক বাজারদর দেখার এবং মূল্য বৃদ্ধি/হ্রাসের ট্রেন্ড পর্যবেক্ষণ করার একটি আধুনিক ওয়েবাসাইট। 
 
----
 
-## Live Demo & Repository
 
-- 🌐 **Live Website:** [https://your-live-site-link.vercel.app](https://your-live-site-link.vercel.app)
-- 📁 **GitHub Repository:** [https://github.com/your-username/B14-A7-Bazar-Dor](https://github.com/your-username/B14-A7-Bazar-Dor)
-
----
 
 ##  Key Features
 
