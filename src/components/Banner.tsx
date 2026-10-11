@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import bazarHeroImg from "../../public/bazar-hero1.png";
 
 const Banner = () => {
   const [today, setToday] = useState("");
@@ -16,7 +17,7 @@ const Banner = () => {
 
   return (
     <div className="flex items-center justify-between my-5 sm:my-9 px-4 sm:px-6 lg:px-8 py-5 sm:py-7 bg-[#FAFCFA] border border-gray-200 rounded-2xl overflow-hidden">
-      
+
       {/* Left Text Container */}
       <div className="max-w-2xl">
         {/* Date Badge */}
@@ -26,10 +27,10 @@ const Banner = () => {
           </h2>
         )}
 
-        
-        
 
-        
+
+
+
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1D271F] leading-tight mb-3 sm:mb-4">
           আজকের বাজারের দাম এক নজরে
         </h1>
@@ -45,11 +46,11 @@ const Banner = () => {
         </button>
       </div>
 
-   
-   
+
+
       <div className="hidden sm:block shrink-0 ml-6">
         <Image
-          src="/bazar-hero 1.png"
+          src={bazarHeroImg}
           width={315}
           height={263}
           alt="বাজার হিরো ছবি"
